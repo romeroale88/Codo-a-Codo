@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: #34393F;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    padding-right: 5vw;
+    
+}
+a{
+    text-decoration: none;
+}
+header nav a {
+    margin-right: 20px;
+    color: rgb(156, 156, 156);
+    font-size: 18px;
+}
+header nav a:hover{
+    color: white;
+}
+header nav a:active{
+    color: white;
+}
+.logo-contain{
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+}
+.logo-contain img {
+    width: 7vw;
+}
+.logo-contain h1{
+    color: white;
+    font-size: 1.2rem;
+}
+.comprar{
+    color: #27a743;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-principal {
+    display: flex;
+    background-image: url('./imagenes_integrador_front/hawaii.jpg');
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    height:87vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 100%  75%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.msj-principal{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 5vw;
+}
+.msj-principal p{
+    font-size: 18px;
+}
+.msj-principal h1, p{
+    color:white;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.orador{
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.ticket {
+    padding: 10px;
+    border: 2px solid #27a743;
+    color: white;
+    border-radius: 5px;
+    background-color: #27a743;
+    text-align: center;
+}
+.orador:hover, .ticket:hover{
+    color: white;
+}
+.conoce p{
+    color: black;
+    text-align: center;
+}
+.tarjetas-oradores{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+.contariner-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contariner-tarjeta p{
+    padding-top: 15px;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+    line-height: 2;
+    
+}
+.tarjeta{
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.tarjeta-1{
+    background-image: url('./imagenes_integrador_front/bill.jpg');
+
+}
+.tarjeta-2{
+    background-image: url('./imagenes_integrador_front/steve.jpg');
+
+}
+.tarjeta-3{
+    background-image: url('./imagenes_integrador_front/ada.jpeg');
+}
+.detalles {
+    width:250px ;
+    padding-top: 20px;
+}
+.skills{
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+}
+.js{
+    background-color: #FCC105;
+    color: black;    
+}
+.react{
+    background-color: #3EACBA;
+    
+}
+.negocios{
+    background-color: #6B747D;
+}
+.startups{
+    background-color: #CC3948;
+}
+.container-secundario{
+    display: flex;
+}
+.img-secundaria{
+    background-image: url('./imagenes_integrador_front/honolulu.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+}
+.txt-secundario{
+    padding:15px 20px;
+    background-color:#353A40;
+    width: 50%;
+    height: 60vh;
+}
+.txt-secundario p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+.txt-secundario h2{
+    color: white;
+}
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form p{
+    color: black;
+    padding-bottom: 0;
+    margin-bottom: 0 ;
+}
+form div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+input{
+    margin-top: 30px;
+    width: 45%;
+    border: 1px solid rgb(193, 193, 194);
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    margin-top: 30px;
+    resize: none;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid rgb(193, 193, 194);
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: #6aec1e;
+}
+footer{
+    display: flex;
+    padding: 0 15vw;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 13vh;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right, #1B3743,#1B5271)
+}
+footer a{
+    color: white;
+    width: 100px;
+}
